@@ -1,15 +1,12 @@
 package org.example.Config;
 
-import org.example.beans.ChickenRoll;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
-@Configuration
-@ComponentScan(basePackages = {"org.example"})
+@Component
+@ComponentScan(basePackages = "org.example")
 public class config {
-    @Bean
-    ChickenRoll chickenRoll(){
-        return chickenRoll();
-    }
+
+
+
 }
